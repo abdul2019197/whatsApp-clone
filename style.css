@@ -1,0 +1,115 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-color: rgb(2, 129, 102);
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.header_nav{
+    margin-top: 10px;
+}
+.header_nav a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.header_nav a:hover{
+    text-decoration: underline;
+    color: #08e6b6;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding: 40px;
+    margin: auto;
+}
+.container1 a{
+    font-size: large;
+    color: rgb(2, 129, 102);
+    text-decoration: none;
+}
+
+.title1{
+    width: 300px;
+    margin-right: 100px;
+}
+
+.container3{
+    display:flex;
+    margin-top: 50px;
+    height: 700px;
+}
+    
+.box1{
+    text-align: center;
+    background-color: #c6dfd8;
+    padding: 20px 20px 0px 20px;
+    width: fit-content;
+
+}
+.box2{
+    text-align: center;
+    background-color:#e9e9e3;
+    padding: 20px 20px 0px 20px;
+    width: fit-content;
+}
+.box1 img{
+    height: 400px;
+}
+.box2 img{
+    height: 450px;
+}
+.abc{
+    text-align: center;
+    margin-top: 70px;
+}
+.abc a{
+    font-size: large;
+    color: rgb(2, 129, 102);
+    text-decoration: none;
+    border: solid 1px #04ca9f;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+ .abc a:hover{
+     color: black;
+     background-color: #07e7b7;
+ }
+.jkl a:hover{
+    color: #04ca9f;
+}
+ 
+
+.container4{
+    display: flex;
+    margin-top: 50px;
+    color: white;
+    justify-content: space-evenly;
+    background-color:hsl(180, 92%, 10%); 
+
+}
+.container4 a{
+    text-decoration: none;
+    color: white;
+}
+.container4 div p a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: max-content;
+    padding: 0px 180px 0px 180px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
